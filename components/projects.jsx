@@ -45,7 +45,7 @@ export default function Projects() {
       title: p.title[lang],
       description: p.description[lang],
       results: p.results[lang],
-      image: placeholderImage(p.title.en, p.category),
+      image: p.image || placeholderImage(p.title.en, p.category),
     }))
   }, [lang])
 

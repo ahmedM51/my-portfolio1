@@ -1,27 +1,10 @@
-const thumb = (url) => `https://image.thum.io/get/width/1200/crop/700/${url}`
-
 export const projectsData = [
-  {
-    id: 1,
-    title: { ar: "Smart Student Platform", en: "Smart Student Platform" },
-    category: "education",
-    url: "https://student-platform-frontend.vercel.app/",
-    image: thumb("https://student-platform-frontend.vercel.app/"),
-    description: {
-      ar: "منصة تعليمية تعتمد على الذكاء الاصطناعي لمساعدة الطلاب في تنظيم الدراسة وفهم المحاضرات وإدارة المحتوى التعليمي.",
-      en: "An AI-powered educational platform that helps students organize study, understand lectures, and manage educational content.",
-    },
-    results: {
-      ar: ["منصة تعليمية متكاملة", "أدوات ذكاء اصطناعي", "مساعد ذكي للطلاب", "مخطط دراسي", "مؤقت للمذاكرة", "إدارة المواد والملاحظات"],
-      en: ["Integrated education platform", "AI tools", "Smart student assistant", "Study planner", "Study timer", "Subjects & notes management"],
-    },
-  },
   {
     id: 2,
     title: { ar: "The New Muslims", en: "The New Muslims" },
     category: "education",
     url: "https://the-new-muslims.com/",
-    image: thumb("https://the-new-muslims.com/"),
+    image: "/photo/الملمون الجدد.png",
     description: {
       ar: "منصة تعليمية مخصصة للمسلمين الجدد، تجمع بين المحتوى الإسلامي للكبار والأطفال في تجربة واحدة.",
       en: "An educational platform dedicated to new Muslims, combining Islamic content for adults and children in one experience.",
@@ -36,7 +19,7 @@ export const projectsData = [
     title: { ar: "Al Hamd Company", en: "Al Hamd Company" },
     category: "services",
     url: "https://al-hamdcompany.com/",
-    image: thumb("https://al-hamdcompany.com/"),
+    image: "/photo/شركة الحمد.png",
     description: {
       ar: "موقع شركة الحمد لنقل العفش في عرعر، مصمم لعرض خدمات الشركة ومساعدة العملاء على التواصل وطلب الخدمة.",
       en: "A website for Al Hamd furniture moving company in Arar, designed to showcase services and help customers request service.",
@@ -51,7 +34,7 @@ export const projectsData = [
     title: { ar: "Vera Tech", en: "Vera Tech" },
     category: "corporate",
     url: "https://vera-tech-web.com/",
-    image: thumb("https://vera-tech-web.com/"),
+    image: "/photo/شركة فيراتيك.png",
     description: {
       ar: "الموقع الرسمي لشركة Vera Tech للحلول البرمجية، ويعرض خدمات تصميم وتطوير المواقع والحلول الرقمية والتسويق الرقمي.",
       en: "The official website of Vera Tech software solutions, showcasing web design, development, digital solutions, and digital marketing.",
@@ -66,7 +49,7 @@ export const projectsData = [
     title: { ar: "PSKH School", en: "PSKH School" },
     category: "education",
     url: "https://salmon-loris-513878.hostingersite.com/",
-    image: thumb("https://salmon-loris-513878.hostingersite.com/"),
+    image: "/photo/school.png",
     description: {
       ar: "موقع تعريفي لمدرسة PSKH لعرض المدرسة والخدمات التعليمية والتواصل مع أولياء الأمور.",
       en: "An introductory website for PSKH School to present the school, educational services, and communicate with parents.",
@@ -81,7 +64,7 @@ export const projectsData = [
     title: { ar: "ديكورات العطاء", en: "Al Ataa Decor" },
     category: "services",
     url: "https://bisque-turkey-759824.hostingersite.com/",
-    image: thumb("https://bisque-turkey-759824.hostingersite.com/"),
+    image: "/photo/فخامة الديكور المنزلي.png",
     description: {
       ar: "موقع متخصص في خدمات الديكور المنزلي في تبوك، مع التركيز على بديل الرخام وبديل الخشب والدهانات.",
       en: "A website specializing in home decoration services in Tabuk, focusing on marble alternatives, wood alternatives, and paints.",
@@ -96,7 +79,7 @@ export const projectsData = [
     title: { ar: "اختبار تحديد مستوى اللغة الإنجليزية", en: "English Placement Test" },
     category: "education",
     url: "https://darkorchid-porpoise-774312.hostingersite.com/",
-    image: thumb("https://darkorchid-porpoise-774312.hostingersite.com/"),
+    image: "/photo/اختبار تحديد مستوي.png",
     description: {
       ar: "منصة لاختبار مستوى اللغة الإنجليزية وفق مستويات CEFR.",
       en: "A platform for testing English proficiency according to CEFR levels.",
@@ -111,7 +94,7 @@ export const projectsData = [
     title: { ar: "أبو محمد لشغل الكور", en: "Abu Mohammed Core Works" },
     category: "services",
     url: "https://sienna-wallaby-419994.hostingersite.com/",
-    image: thumb("https://sienna-wallaby-419994.hostingersite.com/"),
+    image: "/photo/ابو محمد لشغل الكور.png",
     description: {
       ar: "موقع خدمات متخصص في قص وتخريم الخرسانة المسلحة وفتح الأبواب والنوافذ في جدة ومكة والطائف.",
       en: "A services website specialized in cutting and coring reinforced concrete and opening doors and windows in Jeddah, Makkah, and Taif.",
@@ -126,7 +109,7 @@ export const projectsData = [
     title: { ar: "حداد مظلات وسواتر عسير", en: "Asir Metal Shades" },
     category: "services",
     url: "https://mediumspringgreen-squid-992443.hostingersite.com/",
-    image: thumb("https://mediumspringgreen-squid-992443.hostingersite.com/"),
+    image: "/photo/حداد مظلات.png",
     description: {
       ar: "موقع متخصص في تركيب المظلات والسواتر والبرجولات والهناجر في أبها وخميس مشيط.",
       en: "A website specialized in installing shades, fences, pergolas, and hangars in Abha and Khamis Mushait.",
@@ -141,7 +124,7 @@ export const projectsData = [
     title: { ar: "مشتل الإسلام", en: "Alistanseq" },
     category: "services",
     url: "https://alistanseq.com/",
-    image: thumb("https://alistanseq.com/"),
+    image: "/photo/مشتل الاسلام.png",
     description: {
       ar: "موقع لمشتل متخصص في بيع الزهور والشتلات وتنسيق الحدائق في الرياض.",
       en: "A website for a nursery specialized in selling flowers, seedlings, and garden landscaping in Riyadh.",
@@ -156,7 +139,7 @@ export const projectsData = [
     title: { ar: "Al Bahar Service", en: "Al Bahar Service" },
     category: "services",
     url: "https://albaharservice.com/",
-    image: thumb("https://albaharservice.com/"),
+    image: "/photo/البحار.png",
     description: {
       ar: "موقع خدمات متخصص في خدمات السيارات والمركبات.",
       en: "A services website specialized in automotive and vehicle services.",
@@ -171,7 +154,7 @@ export const projectsData = [
     title: { ar: "Delta Frame", en: "Delta Frame" },
     category: "ecommerce",
     url: "https://delta-frame1.com/",
-    image: thumb("https://delta-frame1.com/"),
+    image: "/photo/delta fream.png",
     description: {
       ar: "متجر إلكتروني متخصص في النظارات الشمسية بتصميم يجمع بين الموضة والتقنية وتجربة التسوق الحديثة.",
       en: "An e-commerce store specialized in sunglasses with a design combining fashion, technology, and modern shopping experience.",
@@ -186,7 +169,7 @@ export const projectsData = [
     title: { ar: "قص وتخريم الخرسانة", en: "Concrete Cutting" },
     category: "services",
     url: "https://mediumseagreen-eel-650947.hostingersite.com/",
-    image: thumb("https://mediumseagreen-eel-650947.hostingersite.com/"),
+    image: "/photo/اعمار.png",
     description: {
       ar: "موقع متخصص في قص الجدران والخرسانة وفتح الأبواب والنوافذ والتخريم وإزالة وتعديل الجدران.",
       en: "A website specialized in wall and concrete cutting, opening doors and windows, drilling, and removing or modifying walls.",
@@ -201,7 +184,7 @@ export const projectsData = [
     title: { ar: "سكراب المدينة المنورة", en: "Medina Scrap" },
     category: "services",
     url: "https://scrapandused.com/",
-    image: thumb("https://scrapandused.com/"),
+    image: "/photo/سكراب المدينة.png",
     description: {
       ar: "موقع متخصص في شراء السكراب والمعادن والأجهزة والمعدات المستعملة في السعودية.",
       en: "A website specialized in buying scrap, metals, used devices, and equipment in Saudi Arabia.",
@@ -216,7 +199,7 @@ export const projectsData = [
     title: { ar: "مشتل أبو علي", en: "Abu Ali Nursery" },
     category: "services",
     url: "https://dodgerblue-reindeer-587166.hostingersite.com/",
-    image: thumb("https://dodgerblue-reindeer-587166.hostingersite.com/"),
+    image: "/photo/مشتل ابو علي.png",
     description: {
       ar: "موقع متخصص في توريد النخيل المثمر ونخيل الزينة داخل المملكة العربية السعودية.",
       en: "A website specialized in supplying fruit and ornamental palm trees inside Saudi Arabia.",
@@ -231,7 +214,7 @@ export const projectsData = [
     title: { ar: "نظام نقطة البيع POS", en: "POS Terminal" },
     category: "systems",
     url: "https://pos-terminal-sooty.vercel.app/",
-    image: thumb("https://pos-terminal-sooty.vercel.app/"),
+    image: "/photo/سيستم صيدليات.png",
     description: {
       ar: "نظام لإدارة عمليات البيع ونقطة البيع وإدارة المنتجات والمبيعات.",
       en: "A system for managing sales, point of sale, products, and sales operations.",
@@ -246,7 +229,7 @@ export const projectsData = [
     title: { ar: "البارودي للموبيليا", en: "Al Baroudi Furniture" },
     category: "corporate",
     url: "https://al-baroudifurniture.vercel.app/",
-    image: thumb("https://al-baroudifurniture.vercel.app/"),
+    image: "/photo/الباروي.png",
     description: {
       ar: "موقع لشركة متخصصة في تصنيع الركنات والستائر والمطابخ والموبيليا الحديثة حسب الطلب.",
       en: "A website for a company specialized in manufacturing sofas, curtains, kitchens, and modern furniture on demand.",
@@ -261,7 +244,7 @@ export const projectsData = [
     title: { ar: "نظام كاشير الصيدلية", en: "Pharmacy Cashier" },
     category: "systems",
     url: "https://pharmacycashier.vercel.app/",
-    image: thumb("https://pharmacycashier.vercel.app/"),
+    image: "/photo/نظام ادارة صيدلية.png",
     description: {
       ar: "نظام لإدارة الصيدليات يجمع بين نقطة البيع وإدارة المخزون وتقارير المبيعات.",
       en: "A pharmacy management system combining point of sale, inventory management, and sales reports.",
@@ -276,7 +259,7 @@ export const projectsData = [
     title: { ar: "القرآن الكريم", en: "Quran Karim" },
     category: "education",
     url: "https://quranelkarim.vercel.app/",
-    image: thumb("https://quranelkarim.vercel.app/"),
+    image: "/photo/قران.png",
     description: {
       ar: "منصة إلكترونية لعرض سور القرآن الكريم في واجهة مخصصة للقراءة والاستماع والتصفح.",
       en: "An electronic platform for displaying Quran surahs in a dedicated interface for reading, listening, and browsing.",
@@ -291,7 +274,7 @@ export const projectsData = [
     title: { ar: "مطعم حمزة السوري", en: "Hamza Syrian Restaurant" },
     category: "restaurants",
     url: "https://hazasyriainrestaurant.vercel.app/",
-    image: thumb("https://hazasyriainrestaurant.vercel.app/"),
+    image: "/photo/مطعم حمزة.png",
     description: {
       ar: "موقع مطعم سوري في أسيوط لعرض قائمة الطعام والتعريف بالمطعم وإتاحة الحجز والتواصل.",
       en: "A Syrian restaurant website in Assiut for displaying the menu, introducing the restaurant, enabling reservations, and contact.",
@@ -306,7 +289,7 @@ export const projectsData = [
     title: { ar: "NilePath", en: "NilePath" },
     category: "tourism",
     url: "https://egypt-tourism-booking-platform.vercel.app/",
-    image: thumb("https://egypt-tourism-booking-platform.vercel.app/"),
+    image: "/photo/NilePath.png",
     description: {
       ar: "منصة سياحية متخصصة في السياحة الداخلية والرحلات المخصصة داخل مصر.",
       en: "A tourism platform specialized in domestic tourism and customized trips inside Egypt.",
@@ -321,7 +304,7 @@ export const projectsData = [
     title: { ar: "Nefertari", en: "Nefertari" },
     category: "corporate",
     url: "https://nefertari-psi.vercel.app/",
-    image: thumb("https://nefertari-psi.vercel.app/"),
+    image: "/photo/نيفيرتيتي.png",
     description: {
       ar: "مشروع رقمي يحمل هوية Nefertari، مصمم ضمن مشاريع الويب والواجهات الرقمية.",
       en: "A digital project carrying the Nefertari identity, designed within web and digital interface projects.",
@@ -336,7 +319,7 @@ export const projectsData = [
     title: { ar: "بنك الدم المصري", en: "Egyptian Blood Bank" },
     category: "services",
     url: "https://rdwan.vercel.app/",
-    image: thumb("https://rdwan.vercel.app/"),
+    image: "/photo/بنك الدم.png",
     description: {
       ar: "منصة رقمية لربط المتبرعين بالمرضى وتسهيل البحث عن متبرع مناسب حسب فصيلة الدم والموقع.",
       en: "A digital platform connecting blood donors with patients and facilitating the search for a suitable donor by blood type and location.",
@@ -351,7 +334,7 @@ export const projectsData = [
     title: { ar: "Portfolio", en: "Portfolio" },
     category: "corporate",
     url: "https://my-portfolio-chi-five-22.vercel.app/",
-    image: thumb("https://my-portfolio-chi-five-22.vercel.app/"),
+    image: "/photo/protfio.png",
     description: {
       ar: "موقع Portfolio شخصي لعرض الخبرات والمهارات والشهادات والمشاريع والخدمات البرمجية.",
       en: "A personal portfolio website to display experience, skills, certifications, projects, and programming services.",
@@ -362,26 +345,11 @@ export const projectsData = [
     },
   },
   {
-    id: 25,
-    title: { ar: "Smart Student Platform", en: "Smart Student Platform" },
-    category: "education",
-    url: "https://smart-student-platform-21.vercel.app/",
-    image: thumb("https://smart-student-platform-21.vercel.app/"),
-    description: {
-      ar: "نسخة أخرى من منصة الطالب الذكي، تقدم تجربة تعليمية متكاملة تجمع بين أدوات الدراسة والذكاء الاصطناعي.",
-      en: "Another version of the Smart Student Platform, offering an integrated educational experience combining study tools and AI.",
-    },
-    results: {
-      ar: ["منصة تعليمية", "مساعد ذكي", "أدوات الدراسة", "إدارة المواد", "تنظيم الوقت", "تجربة تعليمية رقمية"],
-      en: ["Education platform", "Smart assistant", "Study tools", "Subjects management", "Time management", "Digital education experience"],
-    },
-  },
-  {
     id: 26,
     title: { ar: "منصة الطالب الذكي", en: "Smart Student Platform" },
     category: "education",
     url: "https://student-platform-frontend.vercel.app/",
-    image: thumb("https://student-platform-frontend.vercel.app/"),
+    image: "/photo/منصة الطالب.png",
     description: {
       ar: "نسخة منشورة من منصة التعلم الذكية، وتضم لوحة تحكم وأدوات للمذاكرة والملاحظات والمخطط الدراسي والمساعد الذكي.",
       en: "A published version of the smart learning platform, including a dashboard, study tools, notes, study planner, and smart assistant.",
@@ -392,26 +360,11 @@ export const projectsData = [
     },
   },
   {
-    id: 27,
-    title: { ar: "بنك الدم المصري", en: "Egyptian Blood Bank" },
-    category: "services",
-    url: "https://rdwan.vercel.app/",
-    image: thumb("https://rdwan.vercel.app/"),
-    description: {
-      ar: "منصة رقمية تهدف إلى تسهيل عملية التبرع بالدم وربط المتبرعين بالمرضى في مختلف أنحاء مصر.",
-      en: "A digital platform aiming to facilitate blood donation and connect donors with patients across Egypt.",
-    },
-    results: {
-      ar: ["البحث عن متبرعين", "تسجيل المتبرعين", "إدارة طلبات الدم", "معلومات التبرع", "واجهة سهلة الاستخدام", "نظام مساعد ذكي"],
-      en: ["Donor search", "Donor registration", "Blood request management", "Donation information", "Easy-to-use interface", "Smart assistant"],
-    },
-  },
-  {
     id: 28,
     title: { ar: "نظام إدارة معرض السيارات والأقساط", en: "Car Showroom & Installments" },
     category: "systems",
     url: "https://car-showroom-contracts1-hdgn.vercel.app/",
-    image: thumb("https://car-showroom-contracts1-hdgn.vercel.app/"),
+    image: "/photo/سيستم عربيات.png",
     description: {
       ar: "نظام لإدارة معرض السيارات ومتابعة السيارات والعقود والأقساط والعملاء.",
       en: "A system for managing a car showroom and tracking cars, contracts, installments, and customers.",
@@ -422,26 +375,11 @@ export const projectsData = [
     },
   },
   {
-    id: 29,
-    title: { ar: "منصة الطالب الذكي", en: "Smart Student Platform" },
-    category: "education",
-    url: "https://smart-student-platform.com/",
-    image: thumb("https://smart-student-platform.com/"),
-    description: {
-      ar: "الموقع الرسمي لمنصة تعليمية تعتمد على الذكاء الاصطناعي لتقديم أدوات تساعد الطالب في الدراسة وتنظيم المحتوى التعليمي.",
-      en: "The official website of an educational platform powered by AI, providing tools that help students study and organize educational content.",
-    },
-    results: {
-      ar: ["AI Education", "إدارة المحاضرات", "أدوات المذاكرة", "مساعد ذكي", "تجربة تعليمية متكاملة"],
-      en: ["AI Education", "Lectures management", "Study tools", "Smart assistant", "Integrated educational experience"],
-    },
-  },
-  {
     id: 30,
     title: { ar: "حفلة تخرج معهد الزرقا", en: "El Zarqa Graduation" },
     category: "education",
     url: "https://palegreen-tarsier-937427.hostingersite.com/",
-    image: thumb("https://palegreen-tarsier-937427.hostingersite.com/"),
+    image: "/photo/منصة.png",
     description: {
       ar: "موقع مخصص لفعالية حفلة تخرج معهد الزرقا لعرض معلومات المناسبة وتجربة رقمية للطلاب والخريجين.",
       en: "A website dedicated to the El Zarqa Institute graduation event to display event information and a digital experience for students and graduates.",
