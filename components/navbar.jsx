@@ -12,6 +12,8 @@ export default function Navbar() {
   const t = translations[lang].nav
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const isAr = lang === "ar"
+  const name = isAr ? { first: "احمد", second: "محمد" } : { first: "Ahmed", second: "Mohamed" }
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50)
@@ -50,9 +52,9 @@ export default function Navbar() {
               />
             </div>
             <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-              Ahmed
+              {name.first}
             </span>
-            <span className="text-white">Mohamed</span>
+            <span className="text-white">{name.second}</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">

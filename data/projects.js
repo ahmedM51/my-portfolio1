@@ -4,7 +4,7 @@ export const projectsData = [
     title: { ar: "The New Muslims", en: "The New Muslims" },
     category: "education",
     url: "https://the-new-muslims.com/",
-    image: "/photo/الملمون الجدد.png",
+    image: "/photo/مشتل الاسلام.png",
     description: {
       ar: "منصة تعليمية مخصصة للمسلمين الجدد، تجمع بين المحتوى الإسلامي للكبار والأطفال في تجربة واحدة.",
       en: "An educational platform dedicated to new Muslims, combining Islamic content for adults and children in one experience.",
@@ -372,21 +372,6 @@ export const projectsData = [
     results: {
       ar: ["إدارة السيارات", "إدارة العملاء", "العقود", "الأقساط", "متابعة المدفوعات", "نظام إداري متكامل"],
       en: ["Cars management", "Customers management", "Contracts", "Installments", "Payments tracking", "Integrated management system"],
-    },
-  },
-  {
-    id: 30,
-    title: { ar: "حفلة تخرج معهد الزرقا", en: "El Zarqa Graduation" },
-    category: "education",
-    url: "https://palegreen-tarsier-937427.hostingersite.com/",
-    image: "/photo/منصة.png",
-    description: {
-      ar: "موقع مخصص لفعالية حفلة تخرج معهد الزرقا لعرض معلومات المناسبة وتجربة رقمية للطلاب والخريجين.",
-      en: "A website dedicated to the El Zarqa Institute graduation event to display event information and a digital experience for students and graduates.",
-    },
-    results: {
-      ar: ["صفحة فعالية", "عرض معلومات الحفل", "تجربة مناسبة للمناسبة", "تصميم متجاوب"],
-      en: ["Event page", "Ceremony information display", "Suitable event experience", "Responsive design"],
     },
   },
 ]
