@@ -42,7 +42,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 text-xl font-bold">
             <div className="relative w-10 h-10 rounded-full overflow-hidden border-2 border-purple-500/50 shadow-lg shadow-purple-500/20">
               <Image
-                src="https://h.top4top.io/p_38322s08n1.jpeg"
+                src="/profile.jpeg"
                 alt="Ahmed Mohamed"
                 fill
                 className="object-cover"
